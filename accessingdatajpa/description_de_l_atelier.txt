@@ -1,0 +1,37 @@
+
+Cet atelier vous guide tout au long du processus de création
+d'une application qui utilise Spring Data JPA pour stocker
+et récupérer des données dans une base de données relationnelle.
+
+#Ce que vous allez construire
+Vous allez créer une application qui stocke Customerles POJO (Plain Old Java Objects)
+dans une base de données basée sur la mémoire.
+
+#De quoi as-tu besoin
+Environ 15 minutes
+
+
+#####Commencer avec Spring Initializr
+
+1-Pour initialiser manuellement le projet :
+
+Accédez à https://start.spring.io . Ce service récupère toutes les dépendances dont vous avez besoin pour une application et effectue l'essentiel de la configuration pour vous.
+
+2-Choisissez Gradle ou Maven et le langage que vous souhaitez utiliser. 
+Cet atelier suppose que vous avez choisi Java.
+
+3-Cliquez sur Dépendances et sélectionnez Spring Data JPA puis H2 Database .
+
+4-Cliquez sur Générer .
+
+5-Téléchargez le fichier ZIP résultant, qui est une archive 
+d'une application Web configurée avec vos choix.
+
+
+
+#####################Taches######################33
+
+1-Définir une entité simple
+Dans cet exemple, vous stockez Customerdes objets, chacun annoté en tant 
+qu'entité JPA. La liste suivante montre la classe Customer 
+(dans src/main/java/com/example/accessingdatajpa/Customer.java)
