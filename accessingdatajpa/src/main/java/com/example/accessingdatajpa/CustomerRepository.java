@@ -9,6 +9,6 @@ public interface CustomerRepository extends CrudRepository<Customer,Long> {
 
     List <Customer> findByLastName(String lastName);
 
-    Optional<Customer> findById(Long id);
+    Optional <Customer> findById(Long id);
     
 }
